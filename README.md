@@ -22,6 +22,28 @@
 * Перегляд історії відвідувань.
 * Розмежування доступу відповідно до ролі користувача.
 
+Вимоги (Requirements)
+
+Для системи контролю відвідування занять у школі визначено функціональні та нефункціональні вимоги, а також основні сценарії використання з погляду користувачів.
+
+Функціональні вимоги
+Керування інформацією про учнів.
+Створення та керування мікрогрупами до 3 учнів.
+Створення та редагування розкладу занять.
+Облік відвідування учнів.
+Перегляд історії відвідувань.
+Нефункціональні вимоги
+Швидке завантаження основних сторінок.
+Авторизація користувачів.
+Розмежування доступу за ролями.
+Адаптивний інтерфейс.
+Надійне збереження даних.
+User Stories
+Адміністратор: керування учнями та розподіл за мікрогрупами.
+Викладач: фіксація відвідування учнів.
+Адміністратор: перегляд історії відвідувань учнів.
+
+Детальні вимоги та критерії прийняття описані в папці requirements.
 ---
 
 # School Attendance Management System
@@ -47,3 +69,26 @@ The system allows users to manage students, small groups, and class schedules, a
 * Attendance tracking.
 * Attendance history.
 * Role-based access control.
+
+Requirements
+
+The school attendance management system has defined functional and non-functional requirements, along with user stories describing the needs of its users.
+
+Functional Requirements
+Student information management.
+Management of small groups of up to 3 students.
+Class schedule management.
+Student attendance tracking.
+Attendance history viewing.
+Non-Functional Requirements
+Fast loading of main pages.
+User authentication.
+Role-based access control.
+Responsive user interface.
+Reliable data storage.
+User Stories
+Administrator: manage students and assign them to small groups.
+Teacher: record student attendance.
+Administrator: view student attendance history.
+
+Detailed requirements and acceptance criteria are available in the requirements folder.
